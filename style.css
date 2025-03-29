@@ -1,10 +1,23 @@
 img {
-    width: 1000px
+    width: 500px
 }
 
 body {
-    text-align: center;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     color: purple;
     background: burlywood;
+}
+
+#PageTitle {
+    text-align: center;
+}
+
+#Annotation {
+    text-align: center;
+}
+
+hr.rounded {
+    border-top: 20px solid #844bb4;
+    border-radius: 50px;
 }
