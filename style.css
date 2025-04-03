@@ -1,16 +1,32 @@
 img {
-    transform: scale(0.5);
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
-    margin: 0;
+/* ADD THIS */
+    width:95%;
+    height:auto;
+    display:block;
 }
+
+
+
+
+
+
+
 
 body {
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    color: purple;
-    background: burlywood;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+    color: #123458;
+    background: #D4C9BE;
     margin: 0;
     padding: 0;
+}
+
+p {
+    margin-left: 3%;
 }
 
 #PageTitle {
@@ -22,6 +38,10 @@ body {
 }
 
 hr.rounded {
-    border-top: 20px solid #844bb4;
+    border-top: 20px solid #030303;
     border-radius: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
 }
