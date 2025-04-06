@@ -1,25 +1,35 @@
-img {
-    max-width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-/* ADD THIS */
-    width:95%;
-    height:auto;
-    display:block;
-    padding-bottom: 1.5%;
+* {
+    box-sizing: border-box;
 }
 
 body {
-    text-align: left;
+    text-align: start;
     color: #123458;
     background: #D4C9BE;
-    margin: 0;
-    padding: 0;
 }
 
-p, a {
-    margin-left: 3%;
+img {
+    max-width: 95%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: auto;
+    display: block;
+    padding-bottom: 1.5%;
+}
+
+section {
+    background-color: pink;
+    padding-inline: 10px;
+    margin-inline: 30px;
+    border-radius: 20px;
+    padding-block: 10px;
+    margin-block: 30px;
+}
+
+p,
+a {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
 
@@ -31,11 +41,11 @@ p, a {
     text-align: center;
 }
 
-hr.rounded {
-    border-top: 20px solid #030303;
-    border-radius: 50px;
-}
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Corben', Georgia, Times, serif;
 }
