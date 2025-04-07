@@ -8,37 +8,28 @@ body {
     background: #D4C9BE;
 }
 
+p,
+a {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+section {
+    background-color: pink;
+    padding-inline: 1em;
+    margin-inline: 1em;
+    border-radius: 1em;
+    padding-block: 1em;
+    margin-block: 1em;
+}
+
 img {
-    max-width: 95%;
-    padding: 0;
+    padding: 0rem;
     margin-left: auto;
     margin-right: auto;
     width: 95%;
     height: auto;
     display: block;
     padding-bottom: 1.5%;
-}
-
-section {
-    background-color: pink;
-    padding-inline: 10px;
-    margin-inline: 30px;
-    border-radius: 20px;
-    padding-block: 10px;
-    margin-block: 30px;
-}
-
-p,
-a {
-    font-family: 'Nobile', Helvetica, Arial, sans-serif;
-}
-
-#PageTitle {
-    text-align: center;
-}
-
-#Annotation {
-    text-align: center;
 }
 
 h1,
@@ -49,3 +40,110 @@ h5,
 h6 {
     font-family: 'Corben', Georgia, Times, serif;
 }
+
+#PageTitle, 
+#Annotation {
+    text-align: center;
+}
+#LinkHolder {
+  background-color: pink;
+  font-size: 3rem;
+  text-align: center;
+  margin-inline: 1em;
+  border-radius: 1em;
+}
+
+@media (min-width: 400px) {
+  img {
+    padding-block: 0rem;
+  }
+
+nav {
+  line-height: 150%;
+}
+
+#LinkHolder {
+  font-size: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 2rem;
+}
+
+}
+
+@media (min-width: 1000px) {
+  img {
+    padding: 0rem;
+  }
+
+section {
+    background-color: pink;
+}
+
+ul {
+  line-height: 150%;
+  font-size: 1.5rem;
+}
+
+#LinkHolder {
+  font-size: 3.5rem;
+}
+
+#Annotation {
+  font-size: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 2.5rem;
+}
+
+
+}
+
+@media (min-width: 1200px) {
+  img {
+    padding: 0rem;
+  }
+
+section {
+    background-color: pink;
+}
+
+ul {
+  line-height: 150%;
+  font-size: 2rem;
+}
+
+#LinkHolder {
+  font-size: 4rem;
+}
+
+#Annotation {
+  font-size: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 3rem;
+}
+
+
+
+}
+
+
