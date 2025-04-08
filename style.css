@@ -20,6 +20,16 @@ section {
     border-radius: 1em;
     padding-block: 1em;
     margin-block: 1em;
+    
+    @media(width > 1000px) {
+      font-size: 1.5rem;
+    }
+    @media(width > 1500px) {
+      font-size: 2rem;
+    }
+    @media(width > 1800px) {
+      font-size: 2.5rem;
+    }
 }
 
 img {
@@ -32,29 +42,17 @@ img {
     padding-bottom: 1.5%;
 }
 
-#PageTitle, 
-#Annotation {
-    text-align: center;
-}
-#LinkHolder {
-  background-color: pink;
-  font-size: 3rem;
-  text-align: center;
-  margin-inline: 1em;
-  border-radius: 1em;
-}
-
-@media (min-width: 400px) {
-  img {
-    padding-block: 0rem;
-  }
-
 nav {
   line-height: 150%;
-}
-
-#LinkHolder {
-  font-size: 3rem;
+    @media(width > 1000px) {
+      font-size: 1.5rem;
+    }
+    @media(width > 1500px) {
+      font-size: 2rem;
+    }
+    @media(width > 1800px) {
+      font-size: 2.5rem;
+    }
 }
 
 h1,
@@ -65,11 +63,39 @@ h5,
 h6 {
     font-family: 'Corben', Georgia, Times, serif;
     font-size: 2rem;
-    @media(width > 720px) {
+    @media(width > 1000px) {
+      font-size: 3rem;
+    }
+    @media(width > 1500px) {
       font-size: 4rem;
     }
-    
-    
-}
+    @media(width > 1800px) {
+      font-size: 5rem;
+    }
 }
 
+
+#Annotation {
+    text-align: center;
+    
+    @media(width > 1000px) {
+      font-size: 2rem;
+    }
+    @media(width > 1500px) {
+      font-size: 2.5rem;
+    }
+    @media(width > 1800px) {
+      font-size: 3rem;
+    }
+}
+#LinkHolder {
+  background-color: pink;
+  font-size: 3rem;
+  text-align: center;
+  margin-inline: 1em;
+  border-radius: 1em;
+}
+
+#PageTitle {
+  text-align: center;
+}
