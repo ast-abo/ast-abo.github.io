@@ -11,6 +11,7 @@ body {
 p,
 a {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    text-decoration: none;
 }
 
 section {
@@ -99,3 +100,16 @@ h6 {
 #PageTitle {
   text-align: center;
 }
+
+.Home {
+  display: inline-block;
+}
+  
+.Next  {
+  display: inline-block;
+}
+  
+.Previous {
+  display: inline-block;
+}
+  
