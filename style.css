@@ -103,13 +103,22 @@ h6 {
 
 .Home {
   display: inline-block;
+  background-color: pink;
+  border-radius: 20px;
+  padding: 8px 16px;
 }
   
 .Next  {
   display: inline-block;
+  background-color: pink;
+  border-radius: 20px;
+  padding: 8px 16px;
 }
   
 .Previous {
   display: inline-block;
+  background-color: pink;
+  border-radius: 20px;
+  padding: 8px 16px;
 }
   
